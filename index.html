@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>プロフィール</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="content">
+        <div class="main_box">
+          <div class="post_user_box">
+            <div class="post_user_icon_block">
+              <img src="img/icon.jpg" id="post_user_icon" />
+            </div>
+            <div class="post_user_name_block">
+              <p name="post_user_name" id="post_user_name">小豆</p>
+            </div>
+            <div class="post_user_followbtn_block">
+              <input
+                class="post_follow_button"
+                id="post_follow_button"
+                type="button"
+                value="フォローする"
+              />
+            </div>
+          </div>
+          <div class="post_img_box">
+            <img src="img/img.jpg" id="post_img" />
+          </div>
+          <div class="footer">
+            <div class="post_footer_menu">
+              <div class="star-rating">
+                <div class="star-rating-front" style="width: 100%;">
+                  ★★★★★
+                </div>
+                <div class="star-rating-back">★★★★★</div>
+              </div>
+              <div class="post_like_box">
+                <i class="fa fa-heart-o"></i>
+              </div>
+            </div>
+            <div class="post_text_box">
+              <p>
+                #オーダーしてた #ポケモンシャツ #届いてた #嬉しい
+                #オムナイト #刺繍 #可愛くない ？ #ボタンとか #襟も
+                #自分でカスタマイズできるんだよ #ポロシャツだから
+                #カジュアルに #スカートとかパンツに #合わせて着る #たのしみ
+                ☺️
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="post_comment_main">
+          <div class="post_comment_post_box">
+            <form action="post" name="comment_post">
+              <div class="post_comment_post_user_icon_block">
+                <img src="img/user_icon.jpg" id="post_comment_user_icon" />
+              </div>
+              <textarea id="post_comment_textbox"></textarea>
+              <input
+                class="post_button"
+                id="post_button"
+                type="submit"
+                value="投稿"
+                disabled
+              />
+            </form>
+          </div>
+          <div class="post_comment_box">
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon2.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      なえなの
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">1時間前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>かわいい、欲しい！！</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon3.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      Billie Eilish
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">10時間前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>I love it!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon4.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      Ed Sheeran
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">1日前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>Aweosome!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon2.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      なえなの
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">1時間前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>かわいい、欲しい！！</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon3.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      Billie Eilish
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">10時間前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>
+                      ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon4.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      Ed Sheeran
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">1日前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>Aweosome!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon2.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      なえなの
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">1時間前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>かわいい、欲しい！！</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon3.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      Billie Eilish
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">10時間前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>I love it!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post_comment_block">
+              <div class="post_comment_user_box">
+                <div class="post_comment_user_icon_block">
+                  <img src="img/icon4.jpg" id="post_comment_user_icon" />
+                </div>
+                <div class="post_comment_body">
+                  <div class="post_comment_user_name_block">
+                    <p
+                      name="post_comment_user_name"
+                      id="post_comment_user_name"
+                    >
+                      Ed Sheeran
+                    </p>
+                    <p>&nbsp;&nbsp;</p>
+                    <p class="post_comment_time">1日前</p>
+                  </div>
+                  <div class="post_comment_main">
+                    <p>Aweosome!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
